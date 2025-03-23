@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score-columns">
+                <div class="column">
+                    <h3>HOME</h3>
+                    <h4 id="home-el">0</h4>
+                    <div class="button-group">
+                        <button onclick="home1()">+1</button>
+                        <button onclick="home2()">+2</button>
+                        <button onclick="home3()">+3</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3>GUEST</h3>
+                    <h4 id="guest-el">0</h4>
+                    <div class="button-group">
+                        <button onclick="guest1()">+1</button>
+                        <button onclick="guest2()">+2</button>
+                        <button onclick="guest3()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <button id="reset-btn" onclick="reset()">Reset Scores</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
